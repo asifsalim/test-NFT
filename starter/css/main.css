@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  min-height: 100vh;
+}
+
+body {
+  background-color: #0d192b;
+  font-family: 'Oswald', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.text-color {
+  color: #8bacda;
+}
+
+.round {
+  border-radius: 10px;
+}
+
+.mask-icon {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.container {
+  width: 30rem;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #14253d;
+  padding: 2rem;
+}
+
+.card-head {
+  position: relative;
+}
+
+.card-img {
+  cursor: pointer;
+}
+
+.mask {
+  border-radius: 10px;
+  background-color: rgba(0, 255, 247, 0.55);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mask:hover, .mask:active {
+  opacity: 1;
+}
+
+.card-title {
+  color: #ffffff;
+  font-weight: 500;
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+
+.card-title:hover, .card-title:active {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+.card-text {
+  color: #8bacda;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.card-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 300;
+  border-bottom: 1px solid #82a0c994;
+}
+
+.card-icon__left {
+  color: #00fff7;
+}
+
+.card-icon__right {
+  color: #8bacda;
+}
+
+.icon {
+  padding-right: 5px;
+}
+
+.card-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  margin-top: 2rem;
+}
+
+.card-bottom:hover, .card-bottom:active {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+.card-bottom__text {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.img-thumbnail {
+  border-radius: 100%;
+  padding: 0;
+  width: 15%;
+  margin-right: 1rem;
+}
